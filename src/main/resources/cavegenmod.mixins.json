@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "supercoder79.cavegenmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinChunkGenerator",
+    "MixinHorizontalVoronoiBiomeAccessType",
+    "MixinVanillaLayeredBiomeSource"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
